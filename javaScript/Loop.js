@@ -16,7 +16,9 @@ function vowelsAndConsonants(s) {
             consonantsStr += char + '\n';
         }
     }
-
-    console.log(vowelsStr);
-    console.log(consonantsStr);
+    
+    console.log(vowelsStr.trim());
+    console.log(consonantsStr.trim());
 }
+vowelsAndConsonants('javascriptloops');
+
