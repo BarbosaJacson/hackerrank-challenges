@@ -25,3 +25,14 @@ This is a difficult challenge (we haven't done this before)! Here is how to solv
 */
 
 
+function calcAverage(arr) {
+    let sum = 0;  
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];  
+    }
+    return sum / arr.length;
+}
+
+console.log(calcAverage(totals));
+calcAverage(totals);
+
